@@ -1,3 +1,1 @@
-# hello-world
-
-I'm different from 'first repository'
+C exercise
