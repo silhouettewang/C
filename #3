@@ -1,0 +1,19 @@
+#编写一个名为right_justify 的函数，函数接受一个名为s的字符串作为形参， 并在打印足够多的前导空格 (leading space) 之后打印这个字符串，使得
+字符串的最后 一个字母位于显示屏的第 70 列。
+
+#rjust，向右对其，在左边补空格
+#s = "123".rjust(5)
+#assert s == " 123"
+#ljust，向左对其，在右边补空格
+#s = "123".ljust(5)
+#assert s == "123 "
+#center，让字符串居中，在左右补空格
+#s = "123".center(5)
+#assert s == " 123 "
+
+def right_justify(s):
+    a=s.rjust(70)
+    print(a)
+
+
+right_justify('bb')
