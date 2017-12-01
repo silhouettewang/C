@@ -1,0 +1,23 @@
+#编写函数接受一个数字列表，并返回其累积和即一个新的列表，其第i位元素是原始列表i+1个元素之和
+
+def list_sum(n):
+        nlist=[]
+        slist=[]
+        for x in n:
+            nlist.append(x)
+            sum_ = sum(nlist)
+            slist.append(sum_)
+            print(slist)
+            
+            
+l=[1,2,3,4,5]
+list_sum(l)
+
+            
+            
+    
+            
+            
+        
+
+        
