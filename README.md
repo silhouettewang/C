@@ -1,1 +1,1 @@
-C exercise
+python exercise
