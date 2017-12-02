@@ -1,0 +1,16 @@
+#写一个名为check_fermat 的函数，接受四个形参 — a，b，c 以及n — 检查费马大定
+理是否成立。如果n 大于 2 且等式
+a^n + b^n = c^n
+成立，程序应输出 “Holy smokes, Fermat was wrong!”。否则程序应输出 “No, that doesn’t work.”。
+def check_fermat():
+    a1, b1, c1, n1 = input('please type in a, b, c, n\n')
+    a = int(a1)
+    b = int(b1)
+    c = int(c1)
+    n= int(n1)
+    if a**n + b**n == c**n:
+        print('Fermat was wrong')
+    else :
+        print("that doesn's work")
+
+check_fermat()
